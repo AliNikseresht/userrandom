@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+    text-transform: capitalize;
+}
+body{
+    background-color: #d47a20!important;
+}
+.user {
+    height: 530px;
+    position: relative;
+    box-shadow: 3px 4px 30px 3px black;
+    color: #000000;
+    margin: 80px auto;
+    border-radius: 15px;
+    figure{
+        img{
+            border-radius: 50%;
+        }
+    }
+    section{
+        div{
+            &:nth-of-type(3){
+                border-top: 2px solid #cfcfcf;
+            }
+            &:nth-of-type(2){
+                border-top: 2px solid #cfcfcf;
+            }
+        }
+        .phon{
+            border-top: 2px solid #cfcfcf;
+        }
+    }
+}
